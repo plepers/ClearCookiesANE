@@ -75,6 +75,9 @@
 
 	<!-- comile java -->
 	<target name="androidCompile" depends="androidClean">
+		
+		<mkdir dir="${ANDROID_BIN_FOLDER}/classes"/>
+		
 		<javac srcdir="${ANDROID_SRC_FOLDER}" includeantruntime="false" destdir="${ANDROID_BIN_FOLDER}/classes">
 
 			<classpath path="${ANDROID_SDK_PATH}/android.jar">
