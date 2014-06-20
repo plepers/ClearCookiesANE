@@ -1,0 +1,8 @@
+<platform xmlns="http://ns.adobe.com/air/extension/3.8">
+    <description >ClearCookiesANE</description> 
+    <sdkVersion>6.0</sdkVersion>
+    <copyright>2014</copyright> 
+    <linkerOptions>
+    </linkerOptions> 
+</platform>
+
