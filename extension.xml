@@ -1,46 +1,36 @@
 <extension xmlns="http://ns.adobe.com/air/extension/3.8">
-<id>com.mmp.ClearCookiesANE</id>
-<versionNumber>1</versionNumber>
-<platforms>
-<platform name="Android-ARM">
-<applicationDeployment>
-<nativeLibrary>libClearCookiesANE.jar</nativeLibrary>
-<initializer>air.extensions.ClearCookiesExtension</initializer>
-<finalizer>air.extensions.ClearCookiesExtension</finalizer>
-</applicationDeployment>
-</platform>
-<platform name="iPhone-ARM">
-<applicationDeployment>
-<nativeLibrary>libClearCookiesANE.a</nativeLibrary>
-<initializer>ExtInitializer</initializer>
-<finalizer>ExtFinalizer</finalizer>
-</applicationDeployment>
-</platform>
-<platform name="iPhone-x86">
-<applicationDeployment>
-<nativeLibrary>libClearCookiesANE.a</nativeLibrary>
-<initializer>ExtInitializer</initializer>
-<finalizer>ExtFinalizer</finalizer>
-</applicationDeployment>
-</platform>
-<!--<platform name="Windows-x86">
-<applicationDeployment>
-<nativeLibrary>libNativeDialogs.dll</nativeLibrary>
-<initializer>NativeDialogsExtInitializer</initializer>
-<finalizer>NativeDialogsExtFinalizer</finalizer>
-</applicationDeployment>
-</platform>
--->
-<!--<platform name="MacOS-x86">
-<applicationDeployment>
-<nativeLibrary>libNativeDialogs.framework</nativeLibrary>
-<initializer>NativeDialogsExtInitializer</initializer>
-<finalizer>NativeDialogsExtFinalizer</finalizer>
-</applicationDeployment>
-</platform>
--->
-<platform name="default">
-<applicationDeployment/>
-</platform>
-</platforms>
+	<id>com.mmp.ClearCookiesANE</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libClearCookiesANE.jar</nativeLibrary>
+				<initializer>air.extensions.ClearCookiesExtension</initializer>
+				<finalizer>air.extensions.ClearCookiesExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libClearCookiesANE.a</nativeLibrary>
+				<initializer>ExtInitializer</initializer>
+				<finalizer>ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libClearCookiesANE.a</nativeLibrary>
+				<initializer>ExtInitializer</initializer>
+				<finalizer>ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<!--<platform name="Windows-x86"> <applicationDeployment> <nativeLibrary>libNativeDialogs.dll</nativeLibrary> 
+			<initializer>NativeDialogsExtInitializer</initializer> <finalizer>NativeDialogsExtFinalizer</finalizer> 
+			</applicationDeployment> </platform> -->
+		<!--<platform name="MacOS-x86"> <applicationDeployment> <nativeLibrary>libNativeDialogs.framework</nativeLibrary> 
+			<initializer>NativeDialogsExtInitializer</initializer> <finalizer>NativeDialogsExtFinalizer</finalizer> 
+			</applicationDeployment> </platform> -->
+		<platform name="default">
+			<applicationDeployment />
+		</platform>
+	</platforms>
 </extension>
