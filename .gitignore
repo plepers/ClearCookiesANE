@@ -5,5 +5,7 @@ IOS/ClearCookiesANE/build/
 
 ANDROID/bin/
 ANDROID/build/
-AS/bin/
-Binaries/
+
+Binaries/iOS
+Binaries/Android
+Binaries/Default
