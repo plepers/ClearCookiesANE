@@ -3,9 +3,9 @@
 Clear WebViews' cookies on mobile. (cookies are sandboxed by apps)
 
 
-##warning
+## ~~warning~~
 
-Not tested yet on android
+~~Not tested yet on android~~
 
 -------
 
